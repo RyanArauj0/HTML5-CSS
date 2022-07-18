@@ -9,25 +9,31 @@
 </head>
 <body>
     <h1>Tabelas grandes</h1>
-    <table>
-        <thead>
-            <th>Estado</th>
-            <th>População</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Rio de Janeiro</td>
-                <td>10 450 985</td>
-            </tr>
-            <tr>
-                <td>São paulo</td>
-                <td>5 150 320</td>
-            </tr>
-            <tr>
-                <td>Minas Gerais</td>
-                <td>1 110 220</td>
-            </tr>
-        </tbody>
-    </table>
+    <div id="tabela">
+        <table>
+            <thead>
+                <th>Estado</th>
+                <th>População</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="estado">Rio de Janeiro</td>
+                    <td class="num">10.450.985</td>
+                </tr>
+                <tr>
+                    <td class="estado">São paulo</td>
+                    <td class="num">5.150.320</td>
+                </tr>
+                <tr>
+                    <td class="estado">Minas Gerais</td>
+                    <td class="num">1.110.220</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th>População total</th>
+                <th><strong>16.711.525</strong></th>
+            </tfoot>
+        </table>
+    </div>
 </body>
 </html>

@@ -12,13 +12,36 @@ h1 {
 table {
     border-collapse: collapse;
     width: 500px;
-} 
+    
+}
+
+#tabela {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 td, th {
     border: 1px solid black;
     padding: 10px;
     background-color: lightgray;
 }
+
+th {
+    color: white;
+    background-color: rgb(104, 103, 103);
+}
+
+.estado {
+    text-align: left;
+}
+
+.num {
+    text-align: right;
+}
+
 
 tr {
     text-align: center;
